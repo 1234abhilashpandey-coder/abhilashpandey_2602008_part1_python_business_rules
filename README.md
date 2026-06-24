@@ -5,7 +5,7 @@ Customer Evaluation, Product Billing, Loan Decision, and Campaign Eligibility Sy
 
 ## Student Details
 - Student Name: Abhilash Pandey
-- Student ID: 2602008
+- Student ID: rotman_ddm_2602008
 
 ## Problem Summary
 This command-line Python application helps a business team collect customer information, calculate product billing, evaluate loan eligibility, and assign campaign eligibility using business rules.
