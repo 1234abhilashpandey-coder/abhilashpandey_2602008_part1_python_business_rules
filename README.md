@@ -64,10 +64,37 @@ This command-line Python application helps a business team collect customer info
 4. Continue using the menu until you choose Exit.
 
 ## Sample Input and Output
-A full sample run is included in `outputs/sample_output.txt`.
+
+A full sample run covering all four features and invalid-input handling is in
+`outputs/sample_output.txt`.
+
+Example — Customer Profile and Financial Summary (Feature 1):
+
+\`\`\`
+Enter customer name: Rohan Mehta
+Enter age: -5
+  -> Invalid input. Value must be between 1 and 120. Please try again.
+Enter age: 30
+...
+Monthly Savings      : Rs. 40,000.00
+Savings Percentage   : 50.00%
+EMI-to-Income Ratio  : 12.50%
+Risk Category        : Low Risk
+Customer Value       : Medium Value
+\`\`\`
+
+See `outputs/sample_output.txt` for the complete run across all 4 menu options.
 
 ## Screenshots
-Screenshots of the program output are included inside `outputs/screenshots/`.
+
+**Feature 1 — Customer Profile and Financial Summary**
+![Customer Profile](outputs/screenshots/screenshot_1_customer_profile.png)
+
+**Feature 2 — Product Billing Calculator**
+![Billing Calculator](outputs/screenshots/screenshot_2_billing.png)
+
+**Feature 3 — Loan Eligibility Decision**
+![Loan Decision](outputs/screenshots/screenshot_3_loan_approved.png)
 
 ## Assumptions Made
 - Loan EMI projection is estimated as requested loan amount divided by 24 months.
